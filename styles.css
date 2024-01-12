@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Poppins', light;
+    src: local('Poppins'),
+    url('/fonts/Poppins.ttf') format('truetype');
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap: 65px;
+    margin-right: 101.74px;
+}
+.link{
+    font-family: Poppins;
+    font-size: 15px;
+}
