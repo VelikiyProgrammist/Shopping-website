@@ -1,19 +1,108 @@
 @font-face {
-    font-family: 'Poppins', light;
-    src: local('Poppins'),
-    url('/fonts/Poppins.ttf') format('truetype');
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    src: local('Poppins'), url('/fonts/poppins/Poppins-Light.ttf') format('truetype');
 }
-header{
-    align-items: center;
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    src: local('Poppins'), url('/fonts/poppins/Poppins-Bold.ttf') format('truetype');
+}
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-}
-nav{
-    display: flex;
-    gap: 65px;
-    margin-right: 101.74px;
-}
-.link{
+    align-items: center;
     font-family: Poppins;
-    font-size: 15px;
+    
+}
+.left_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+}
+.left_top h1{
+   
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+   height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.right_top{
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+}
+.menu{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #000000;
+}
+.but{
+    margin-left: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px; 
+    background-color: #000000;
+    color: white;
+    border-radius: 6px;
+}
+.banner{
+ 
+ background-color: #F4F6F5;
+ margin-left: 10%;
+ margin-right: 10%;
+ border-radius: 40px;
+ display: flex;
+ justify-content: space-between;
+ padding-top: 30px;
+ padding-right: 30px;
+ padding-left: 30px;
+}
+.baby img{
+    width:500px ;
+    height: 500px;
+    margin-top: 40px;
+    margin-right: 70px
+    
+}
+.baby{
+    
+    
+}
+.banner__content.banner__content h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin-right: 230px;
+    margin-left: 70px;
+}
+.banner__content p{
+    font-family: 'Poppins',sans-serif; 
+    margin-left: 70px;
+    font-size: 20px;
+    
+}
+.banner__content button{
+    margin-left: 185px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color:#000000;
+    color: white;
+    padding-left: 31px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Poppins'sans-serif;
 }
