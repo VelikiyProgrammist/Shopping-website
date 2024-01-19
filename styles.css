@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    src: local('Poppins'), url('/fonts/poppins/Poppins-Light.ttf') format('truetype');
+    src: local('Poppins'), url('fonts/poppins/Poppins-Light.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    src: local('Poppins'), url('/fonts/poppins/Poppins-Bold.ttf') format('truetype');
+    src: local('Poppins'), url('fonts/poppins/Poppins-Bold.ttf') format('truetype');
 }
 .container{
     margin-top: 30px;
@@ -15,7 +15,6 @@
     justify-content: space-between;
     align-items: center;
     font-family: Poppins;
-    
 }
 .left_top{
     display: flex;
@@ -24,7 +23,6 @@
     margin-left: 160px;
 }
 .left_top h1{
-   
     font-weight: 900;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -44,6 +42,11 @@
     margin-left: 40px;
     color: #000000;
 }
+.but:hover{
+    background: #EBD96B;
+    color: #000000;
+    border-color: #EBD96B;
+}
 .but{
     margin-left: 30px;
     padding-left: 25px;
@@ -55,6 +58,7 @@
     background-color: #000000;
     color: white;
     border-radius: 6px;
+    cursor: pointer;
 }
 .banner{
  
@@ -72,14 +76,9 @@
     width:500px ;
     height: 500px;
     margin-top: 40px;
-    margin-right: 70px
-    
+    margin-right: 70px 
 }
-.baby{
-    
-    
-}
-.banner__content.banner__content h1{
+.banner__content h1{
     font-family: 'Poppins',sans-serif;
     font-weight: 900;
     font-size: 50px;
@@ -90,9 +89,9 @@
     font-family: 'Poppins',sans-serif; 
     margin-left: 70px;
     font-size: 20px;
-    
 }
 .banner__content button{
+    cursor: pointer;
     margin-left: 185px;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -105,4 +104,51 @@
     border-radius: 6px;
     font-size: 20px;
     font-family: 'Poppins'sans-serif;
+    font-weight: 500;
+}
+.banner__content button:hover{
+    background-color: #EBD96B;
+    color: #000000;
+    border-color: #EBD96B;
+}
+.brands{
+    background-color: #EBD96B;
+    margin-top: 55px;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.brand_all{
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    justify-content: center;
+}.new_apr{
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 900;
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.all_models{
+    display: flex;
+    margin-right: 150px;
+    margin-left: 70px;
+    justify-content: space-between;  
+}
+.models{
+    width: 350px;
+    height: 500PX;
+    margin-left: 80px;
+}
+.all_models h2{
+    margin-left: 86px;
+}
+.all_models p{
+    margin-left: 86px;
+}
+.describe{
+    display: flex;
+    
 }
