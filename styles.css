@@ -18,13 +18,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .left_top{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    
+    align-items: center; 
 }
 .left_top h1{
     font-weight: 900;
@@ -39,7 +39,6 @@ body{
 .right_top{
     display: flex;
     align-items: center;
-    padding-right: 10%;
     
 }
 .menu{
@@ -66,7 +65,7 @@ body{
     cursor: pointer;
 }
 .banner{
-
+font-family: 'Poppins', sans-serif;
  background-color: #F4F6F5;
  margin-left: 10%;
  margin-right: 10%;
@@ -82,16 +81,14 @@ body{
     margin-right: 70px
 }
 .banner__content h1{
-    font-family: 'Poppins',sans-serif;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 96px;
     margin-right: 230px;
     margin-left: 70px;
 }
-.banner__content p{
-    font-family: 'Poppins',sans-serif;
+.banner__content p{ 
     margin-left: 70px;
-    font-size: 20px;
+    font-size: 32px;
 }
 .banner__content button{
     cursor: pointer;
@@ -106,7 +103,6 @@ body{
     padding-right: 30px;
     border-radius: 6px;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 .banner__content button:hover{
@@ -322,5 +318,9 @@ body{
     width:160px ;
     height: 65px;
     border-radius: 10px;
+}
+footer{
+    background-color: #000000;
+    color: white;
 }
     
