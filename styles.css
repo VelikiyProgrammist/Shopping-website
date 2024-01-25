@@ -23,7 +23,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 160px;
+    padding-left: 10%;
+    
 }
 .left_top h1{
     font-weight: 900;
@@ -38,7 +39,8 @@ body{
 .right_top{
     display: flex;
     align-items: center;
-    margin-right: 160px;
+    padding-right: 10%;
+    
 }
 .menu{
     text-decoration: none;
@@ -76,8 +78,6 @@ body{
  padding-left: 30px;
 }
 .baby img{
-    width:500px ;
-    height: 500px;
     margin-top: 40px;
     margin-right: 70px
 }
@@ -135,9 +135,12 @@ body{
     margin-top: 60px;
 }
 .all_models{
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Poppins',sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
     
 }
 .models{
@@ -214,13 +217,18 @@ body{
     border-radius: 10px;
     color: white;
     background-color: #000000;
+    border: none;
 }
 .title{
     margin-top:190px ;
+    padding-left: 10%;
 }
 .all_back{
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'Poppins',sans-serif;
 }
 .all_back .describe{
@@ -228,27 +236,19 @@ body{
     justify-content: space-between;
     
 }
-.all_back .describe__text{
-    margin-left: 15%;
-    
-}
 .one_model .one{
     width: 690px;
-    margin-right:100px ;
-    margin-left: 1%;
+   
 }
 .one_model .describe__text .h1{
-    padding-right: 140px;
     font-weight: 500;
     font-size: 20px;
 }
 .one_model .arrow{
-    margin-right: 15%;
     margin-top: 0;
 }
 .two_models .two{
     width:690px;
-    margin-left: 100px;
 }
 .two_models .describe__text {
     font-size: 20px;
@@ -257,7 +257,8 @@ body{
     font-size: 20px;
 }
 .back{
-    
+    padding-top: 10%;
+    align-items: center;
     display: flex;
     justify-content: space-around;
     font-family: "Poppins",sans-serif;
@@ -273,12 +274,7 @@ body{
     margin-top: 30px;
     padding-bottom: 30px;
 }
-.mobile{
-    padding-top: 10%;
-}
-.Download{
-    padding-top: 20%;
-}
+
 .yallow_back{
     display: flex;
     background-color: #E5C643; 
@@ -311,12 +307,14 @@ body{
     margin-bottom: 150px;
 }
 .input{
+    padding-left: 10px;
     width: 390px;
     height: 80px;
     font-size:24px ;
-    border: white;
+    border: white; 
 }
 .white button{
+    border: none;
     font-size:30px ;
     margin-right:2% ;
     color: white;
