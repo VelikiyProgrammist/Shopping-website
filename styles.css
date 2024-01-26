@@ -52,6 +52,7 @@ body{
     border-color: #EBD96B;
 }
 .but{
+    border: none;
     margin-left: 30px;
     padding-left: 25px;
     padding-right: 25px;
@@ -93,6 +94,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 23px;
 }
 .banner__content button{
+    border: none;
     cursor: pointer;
     margin-left: 185px;
     margin-bottom: 40px;
@@ -206,6 +208,10 @@ font-family: 'Poppins', sans-serif;
 .sell_now p3{
     font-size: 36px;
 }
+.sell_now button:hover{
+    background-color: #ffffff;
+    color: #000000;
+} 
 .sell_now button{
     margin-top: 90px;
     font-size:28px;
@@ -215,6 +221,7 @@ font-family: 'Poppins', sans-serif;
     color: white;
     background-color: #000000;
     border: none;
+    cursor: pointer;
 }
 .title{
     margin-top:190px ;
@@ -319,6 +326,11 @@ font-family: 'Poppins', sans-serif;
     width:160px ;
     height: 65px;
     border-radius: 10px;
+    cursor: pointer;
+}
+.white button:hover{
+    background-color: #e8c868;
+    color: #000000;
 }
 footer{
     
@@ -337,10 +349,8 @@ footer{
     font-family: "Roboto",sans-serif;
     font-size: 24px;
     flex-wrap: wrap;
-    justify-content: center;
     display: flex;
-    flex-direction: column 3;
-    column-gap: 188px
+    
 }
 .one_column h1{
     margin: 0;
@@ -356,11 +366,12 @@ footer{
     padding-bottom: 32px ; 
     padding-top: 32px;
 }
-.colums p1{
-    color: #d9d9d9; ;
-}
 .colums p{
     color: #8e8e8e;
 }
-
-    
+.col{
+    margin-left: 180px;
+}
+.text{
+   color: #d9d9d9; 
+} 
