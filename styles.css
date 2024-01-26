@@ -70,25 +70,27 @@ font-family: 'Poppins', sans-serif;
  margin-left: 10%;
  margin-right: 10%;
  border-radius: 40px;
- display: flex;
  justify-content: space-between;
  padding-top: 30px;
  padding-right: 30px;
  padding-left: 30px;
+ columns: 2;
 }
 .baby img{
+    max-width: 100%;
     margin-top: 40px;
     margin-right: 70px
 }
 .banner__content h1{
+    line-height: 100%;
     font-weight: 900;
-    font-size: 96px;
+    font-size: 68px;
     margin-right: 230px;
     margin-left: 70px;
 }
 .banner__content p{ 
     margin-left: 70px;
-    font-size: 32px;
+    font-size: 23px;
 }
 .banner__content button{
     cursor: pointer;
@@ -131,6 +133,7 @@ font-family: 'Poppins', sans-serif;
     margin-top: 60px;
 }
 .all_models{
+    align-items: center;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -174,7 +177,6 @@ font-family: 'Poppins', sans-serif;
     margin-top: 190px;
     background: linear-gradient(1deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
     display: flex;
-
 }
 .yallow_img{
     margin: 0;
@@ -191,7 +193,6 @@ font-family: 'Poppins', sans-serif;
     line-height: 100px;
     padding-top: 150px;
     padding-bottom: 45px;
-    
 }
 .sell_now p1{
     padding-bottom:40px ;
@@ -220,6 +221,7 @@ font-family: 'Poppins', sans-serif;
     padding-left: 10%;
 }
 .all_back{
+    align-items: center;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -277,8 +279,7 @@ font-family: 'Poppins', sans-serif;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: "Poppins",sans-serif;
-    
+    font-family: "Poppins",sans-serif; 
 }
 .yallow_back h1{
     margin: 0;
@@ -320,7 +321,11 @@ font-family: 'Poppins', sans-serif;
     border-radius: 10px;
 }
 footer{
+    padding-top: 10%;
     background-color: #000000;
     color: white;
+    padding-bottom: 10%;
 }
+
+
     
