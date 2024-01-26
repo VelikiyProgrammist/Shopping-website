@@ -295,7 +295,7 @@ font-family: 'Poppins', sans-serif;
     color: white;
 }
 .yallow_back p{
-    padding-top:px;
+    padding-top:24px;
     font-size: 32px;
     color: white;
 }
@@ -333,7 +333,6 @@ font-family: 'Poppins', sans-serif;
     color: #000000;
 }
 footer{
-    
     flex-wrap: wrap;
     font-family: "Poppins",sans-serif;
     padding-left: 100px;
@@ -350,7 +349,8 @@ footer{
     font-size: 24px;
     flex-wrap: wrap;
     display: flex;
-    
+    justify-content: space-between;
+    width: 40%;
 }
 .one_column h1{
     margin: 0;
@@ -368,9 +368,6 @@ footer{
 }
 .colums p{
     color: #8e8e8e;
-}
-.col{
-    margin-left: 180px;
 }
 .text{
    color: #d9d9d9; 
